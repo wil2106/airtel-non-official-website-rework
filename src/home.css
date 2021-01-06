@@ -1,0 +1,85 @@
+  .video{
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #eee;
+    color: #fff;
+    height: 500px;
+  }
+  .col {
+    flex: 1;
+    transition: 0.3s;
+    max-width: 100%;
+    background-color: #ccc;
+    min-width: 10%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .col:hover {
+    transition: 0.5s;
+    flex-grow: 5;
+    cursor: pointer;
+  }
+
+  .cont {
+    margin: 10px;
+  }
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background:black;
+    background:rgba(0,0,0,0.5);
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .desc {
+    font-size: 1.2em;
+    display: none;
+  }
+
+  .col:hover .desc {
+    display: block;
+  }
+
+  #SME_Go_Digital{
+    background-color: #800D21;
+  }
+  #Fixed_connectivity{
+    background-color: #180A0B;
+  }
+  #Business_mobility{
+    background-color: #22748D;
+  }
+  #Convergence_Collaboration{
+    background-color: #379A9B;
+  }
+  #Cloud_Data_centers{
+    background-image: url('https://www.celge.fr/wp-content/uploads/2016/06/datacenter-cloud.jpg');
+  }
+  #Carrier{
+    background-color: #D9BAB3;
+  }
+  #Airtel_Money_for_Business{
+    background-color: #800D21;
+  }
+  #Business_Insights{
+    background-color: #180A0B;
+  }
